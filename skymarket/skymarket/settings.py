@@ -99,13 +99,14 @@ DJOSER = {
 
 # TODO здесь необходимо настроить подключение к БД
 DATABASES = {
-    'default': {'ENGINE': 'django.db.backends.postgresql',
-                'HOST': 'localhost',
-                'NAME': 'postgres',
-                'USER': 'postgres',
-                'PASSWORD': 'postgres',
-                'PORT': '5432'
-                }
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'HOST': 'localhost',
+        'NAME': 'skymarket',
+        'USER': 'skymarket',
+        'PASSWORD': 'skymarket',
+        'PORT': '5432',
+        }
 }
 
 # Password validation
